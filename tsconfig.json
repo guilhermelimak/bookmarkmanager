@@ -27,6 +27,7 @@
     },
     "suppressImplicitAnyIndexErrors": true,
     "types": [
+      "node",
       "jasmine"
     ]
   }

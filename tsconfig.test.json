@@ -21,7 +21,13 @@
     "declaration": true,
     "removeComments": true,
     "suppressImplicitAnyIndexErrors": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "types": [
+      "node",
       "jasmine"
     ]
   }
