@@ -5,7 +5,7 @@ import { Div } from './style'
 @Component
 class Login extends Vue {
   render(h: Function) {
-    return (<Div />)
+    return <Div />
   }
 }
 
