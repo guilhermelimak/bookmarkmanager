@@ -2,7 +2,7 @@
 module.exports = projectPath => {
   const cwd = process.cwd()
 
-  const basePath = `${projectPath}/{{ directoryBase }}/{{ componentType }}s/{{ name }}`
+  const basePath = `${projectPath}/{{ directoryBase }}/{{ componentType }}s/{{ pascalCase name }}`
 
   return {
     name: 'Component',
