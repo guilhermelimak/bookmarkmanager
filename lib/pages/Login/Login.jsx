@@ -8,7 +8,7 @@ var Login = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Login.prototype.render = function (h) {
-        return (<Div />);
+        return <Div />;
     };
     Login = tslib_1.__decorate([
         Component

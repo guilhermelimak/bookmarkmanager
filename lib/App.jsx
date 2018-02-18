@@ -16,5 +16,6 @@ var App = (function (_super) {
     ], App);
     return App;
 }(Vue));
+console.log(env.API_KEY);
 export default App;
 //# sourceMappingURL=App.jsx.map
