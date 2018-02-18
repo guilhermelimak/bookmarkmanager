@@ -1,5 +1,6 @@
-import Vue from 'vue';
-import { Component } from 'vue-property-decorator';
+import Vue from 'vue'
+import Home from '@/pages/Home'
+import { Component } from 'vue-property-decorator'
 
 @Component
 class App extends Vue {
@@ -8,8 +9,8 @@ class App extends Vue {
       <div id="app">
         <router-view />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
