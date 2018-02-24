@@ -40,6 +40,12 @@ module.exports = projectPath => {
         },
         {
           type: 'add',
+          path: `${basePath}/{{ name }}.story.js`,
+          templateFile: `${cwd}/generators/templates/component.story.template.hbs`,
+          abortOnFail: true
+        },
+        {
+          type: 'add',
           path: `${basePath}/index.ts`,
           templateFile: `${cwd}/generators/templates/index.template.hbs`,
           abortOnFail: true

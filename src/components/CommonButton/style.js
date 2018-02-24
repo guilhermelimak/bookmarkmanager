@@ -1,17 +1,22 @@
 import styled from 'vue-styled-components'
-import { PRIMARY } from '@/styles/colors'
+import Colors from '@/styles/colors'
 
-export const Button = styled.button`
-  color: white;
-  background-color: ${PRIMARY};
-  padding: 6px 16px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s;
+const btnProps = { color: String }
+
+const DARK_SUFFIX = '_DARK'
+
+export const Button = styled('button', btnProps)`
+  background-color: ${btnProps => Colors[btnProps.color]};
   border-radius: 1px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 6px 36px;
+  transition: all 0.3s;
+  margin: 0;
 
   &:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.5);
+    background-color: ${btnProps => Colors[`${btnProps.color}${DARK_SUFFIX}`]};
   }
 `

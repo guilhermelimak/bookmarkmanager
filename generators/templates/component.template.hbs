@@ -2,17 +2,17 @@ import VueComponent from '@/vue-component'
 import { Component, Prop } from 'vue-property-decorator'
 import { Div } from './style'
 
-export interface HomeProps {
+export interface {{ pascalCase name }}Props {
   exampleProp: string
 }
 
 @Component
-class \{{ pascalCase name }} extends Vue {
+class {{ pascalCase name }} extends VueComponent<{{ pascalCase name }}Props> {
   @Prop() exampleProp: string
 
   render(h: Function) {
-    return (<Div />)
+    return <Div />
   }
 }
 
-export default \{{ pascalCase name }}
+export default {{ pascalCase name }}
