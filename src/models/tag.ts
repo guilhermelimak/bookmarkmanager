@@ -1,4 +1,4 @@
-type Tag = {
+class Tag {
   id: String
   name: String
   color: String
