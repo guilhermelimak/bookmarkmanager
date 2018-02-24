@@ -3,7 +3,7 @@ import { Component, Prop, Emit } from 'vue-property-decorator'
 import { Button } from './style'
 
 @Component
-class CommonButtom extends Vue {
+class CommonButton extends Vue {
   @Prop() text: String
 
   @Emit('click')
@@ -14,4 +14,4 @@ class CommonButtom extends Vue {
   }
 }
 
-export default CommonButtom
+export default CommonButton

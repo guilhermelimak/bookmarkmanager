@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
     "test": "jest --no-cache",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "generate": "plop"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "vue-test-utils": "^1.0.0-beta.11"
   },
   "devDependencies": {
+    "@storybook/vue": "^3.3.14",
     "@types/jasmine": "^2.8.6",
     "@types/node": "^9.4.6",
     "@vue/test-utils": "^1.0.0-beta.11",
