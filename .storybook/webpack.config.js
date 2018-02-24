@@ -1,4 +1,5 @@
 const genDefaultConfig = require('@storybook/vue/dist/server/config/defaults/webpack.config.js')
+const path = require('path')
 
 module.exports = (storybookBaseConfig, configType) => {
   const config = genDefaultConfig(storybookBaseConfig, configType)
@@ -16,7 +17,7 @@ module.exports = (storybookBaseConfig, configType) => {
 
   config.resolve.alias = {
     vue$: 'vue/dist/vue.esm.js',
-    '@': '../src'
+    '@': path.resolve(__dirname, '../src')
   }
 
   config.module.rules.push({

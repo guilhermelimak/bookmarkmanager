@@ -10,4 +10,5 @@ declare namespace JSX {
 
 declare module 'style'
 declare module 'firebase'
+declare module '@storybook/vue'
 declare module 'vue-styled-components'

@@ -4,7 +4,7 @@ import Vue from 'vue'
 
 function loadStories() {
   // You can require as many stories as you need.
-  require('./stories/CommonButton.story')
+  require('@/components/CommonButton/CommonButton.story')
 }
 
-configure(loadStories)
+configure(loadStories, module)
