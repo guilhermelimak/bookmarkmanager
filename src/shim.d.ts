@@ -1,7 +1,7 @@
 declare namespace JSX {
   interface Element {}
   interface ElementAttributesProperty {
-    $props // specify the property name to use
+    $props
   }
   interface IntrinsicElements {
     [elemName: string]: any
@@ -9,4 +9,6 @@ declare namespace JSX {
 }
 
 declare module 'style'
+declare module 'firebase'
+declare module '@storybook/vue'
 declare module 'vue-styled-components'

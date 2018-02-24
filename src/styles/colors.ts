@@ -1,0 +1,27 @@
+enum Colors {
+  BLACK = '#1F2122',
+  PRIMARY = '#78948A',
+  DANGER = '#D1443B',
+  SUCCESS = '#C6C284',
+  WHITE = '#DAD6B9',
+  BLACK_DARK = '#070708',
+  PRIMARY_DARK = '#4F615A',
+  DANGER_DARK = '#802924',
+  SUCCESS_DARK = '#949163',
+  WHITE_DARK = '#BDBBB3'
+}
+
+export const enum ColorNames {
+  BLACK = 'BLACK',
+  PRIMARY = 'PRIMARY',
+  DANGER = 'DANGER',
+  SUCCESS = 'SUCCESS',
+  WHITE = 'WHITE',
+  BLACK_DARK = 'BLACK_DARK',
+  PRIMARY_DARK = 'PRIMARY_DARK',
+  DANGER_DARK = 'DANGER_DARK',
+  SUCCESS_DARK = 'SUCCESS_DARK',
+  WHITE_DARK = 'WHITE_DARK'
+}
+
+export default Colors

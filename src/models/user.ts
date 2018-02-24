@@ -1,4 +1,4 @@
-type User = {
+class User {
   id: String
   email: String
 }

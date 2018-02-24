@@ -1,5 +1,0 @@
-export const BG = '#1F2122'
-export const PRIMARY = '#78948A'
-export const DANGER = '#D1443B'
-export const SUCCESS = '#C6C284'
-export const WHITE = '#DAD6B9'

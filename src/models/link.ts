@@ -1,7 +1,7 @@
 import Comment from '@/models/comment'
 import Tag from '@/models/tag'
 
-type Link = {
+class Link {
   id: String
   name: String
   comments: Comment[]
