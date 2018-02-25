@@ -20,7 +20,7 @@ storiesOf('CommonButton', module)
   .add('White color color with custom text', () => ({
     methods: { clicked: () => console.log('Button being clicked') },
     render(h) {
-      return <CommonButton onClick={this.clicked} text="Accept" color="WITE" />
+      return <CommonButton onClick={this.clicked} text="Accept" color="WHITE" />
     }
   }))
   .add('Success color color with custom text', () => ({

@@ -1,14 +1,14 @@
 enum Colors {
   BLACK = '#1F2122',
-  PRIMARY = '#78948A',
+  SUCCESS = '#78948A',
   DANGER = '#D1443B',
-  SUCCESS = '#C6C284',
+  PRIMARY = '#C6C284',
   WHITE = '#DAD6B9',
   BLACK_DARK = '#070708',
-  PRIMARY_DARK = '#4F615A',
+  SUCCESS_DARK = '#4F615A',
   DANGER_DARK = '#802924',
-  SUCCESS_DARK = '#949163',
-  WHITE_DARK = '#BDBBB3'
+  PRIMARY_DARK = '#949163',
+  WHITE_DARK = '#777350'
 }
 
 export const enum ColorNames {

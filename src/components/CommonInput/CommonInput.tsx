@@ -3,18 +3,20 @@ import { Emit, Component, Prop } from 'vue-property-decorator'
 import { Input } from './style'
 
 export interface CommonInputProps {
-  exampleProp: string
+  placeholder: string
 }
 
 @Component
 class CommonInput extends VueComponent<CommonInputProps> {
-  @Prop()
-  @Emit('input')
-  emitInput() {}
+  @Prop() placeholder: String
+
+  emitInput(i: Event) {
+    this.$emit('input', i.target['value'])
+  }
 
   render(h) {
     return (
-      <Input nativeOnInput={this.emitInput} placeholder="this.placeholder" />
+      <Input nativeOnInput={this.emitInput} placeholder={this.placeholder} />
     )
   }
 }
